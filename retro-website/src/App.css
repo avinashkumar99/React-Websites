@@ -1,5 +1,5 @@
 .headingtext {
-  font-family: "Cooper Black", "Lobster", serif;
+  font-family: "Montserrat", "Lobster", serif;
 }
 
 .bodyText {
@@ -8,4 +8,10 @@
 
 .accent {
   font-family: "Press Start 2P", cursive;
+}
+
+.nav-hover-effect:hover {
+  background-color: rgba(31, 33, 31, 0.7);
+  height: 100%;
+  /* width: 100%; */
 }

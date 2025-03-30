@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Futura&display=swap");  */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 @font-face {
@@ -15,3 +15,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color_1: 252, 253, 255;
+  --color_2: 0, 0, 0;
+  --color_3: 220, 221, 224;
+}

@@ -1,7 +1,14 @@
 import React from "react";
+import HeroSection from "./sections/HeroSection";
 
 const Body = () => {
-  return <div className="h-auto w-[100%] bg-slate-700">Body</div>;
+  return (
+    <>
+      <div className="min-h-[100vh] min-w-[100vw] ">
+        <HeroSection />
+      </div>
+    </>
+  );
 };
 
 export default Body;
