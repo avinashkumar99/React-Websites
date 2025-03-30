@@ -39,7 +39,7 @@ const HeroSection = () => {
               <h1
                 key={obj.id}
                 ref={(el) => (h1refs.current[idx] = el)}
-                className="font-extrabold xl:text-9xl lg:text-7xl md:text-6xl sm:text-4xl text-3xl tracking-tighter leading-tight headingtext"
+                className="font-extrabold 2xl:text-9xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl text-3xl tracking-tighter leading-tight headingtext"
               >
                 {obj.text}
               </h1>
