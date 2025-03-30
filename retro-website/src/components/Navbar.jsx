@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav Links  */}
-        <div className="h-full md:w-1/4 w-0 flex xl:text-2xl lg:text-lg md:text-md sm:text-sm  items-center flex-grow">
+        <div className="h-full md:w-1/4 w-0 flex xl:text-xl lg:text-md md:text-md sm:text-sm  items-center flex-grow">
           <ul className="flex flex-row justify-evenly w-full">
             <li>
               <a href="#projects">Projects</a>
