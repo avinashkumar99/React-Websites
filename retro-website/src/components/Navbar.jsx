@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="lg:h-20 md:h-16 sm:h-12 h-16 w-100vw lg:pt-2 lg:px-4 px-3 md:pt-3 pt-1 border-b-2 border-white text-white">
+    <nav className="lg:h-20 md:h-16 sm:h-12 h-16 w-100vw lg:pt-2 lg:px-4 px-3 md:pt-3 pt-1  text-white">
       <div className="h-full w-full flex align-middle">
         {/* Logo and quotes  */}
         <div className="h-full w-[90%] md:w-1/4 flex flex-grow  ">

@@ -24,14 +24,14 @@ const HeroSection = () => {
     gsap.fromTo(
       h1refs.current,
       { x: "-10vw", opacity: 0 },
-      { x: "0vw", opacity: 1, duration: 2, stagger: 0.4, ease: "back.inOut" }
+      { x: "0vw", opacity: 1, duration: 2, stagger: 0.5, ease: "back.in" }
     );
   }, []);
   return (
     <>
-      <section
+      <div
         id="hero"
-        className="w-[100%] h-[100vh] bg-yellow-200 xl:p-8 lg:p-6 md:p-4 p-2"
+        className="w-[100%] h-auto text-white xl:p-8 lg:p-6 md:p-4 p-2"
       >
         {headlines.map((obj, idx) => {
           return (
@@ -46,7 +46,7 @@ const HeroSection = () => {
             </>
           );
         })}
-      </section>
+      </div>
     </>
   );
 };
