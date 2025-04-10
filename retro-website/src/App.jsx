@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="flex flex-col bg-black min-h-[100vh] w-[100vw]">
+    <div className="flex flex-col bg-black min-h-[100vh] w-[100%]">
       <Navbar />
       <Body />
     </div>
